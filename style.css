@@ -496,6 +496,6 @@ footer{
 }
 @media all and (max-width: 576px) {
   .footer-5-column .footer-navbar .footer-navbar-col {
-    /* width: 100%; */
+    width: 100%;
   }
 }
