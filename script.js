@@ -135,9 +135,10 @@ tl3.from('.info-part1 p',{
     duration:0.8
 })
 tl3.from('.info-part1 button',{
-    x:100,
+    x:200,
     opacity:0,
-    duration:1
+    duration:1.5,
+    delay:0.7
 })
 tl3.from('.info-part2 img',{
     opacity:0,

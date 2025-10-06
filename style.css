@@ -45,9 +45,14 @@ nav .part-2{
     font-size: 1.4vw;
     display: flex;
     gap: 2.5vw;
+    transition: all 0.3 linear;
     align-items: center;
+    
 }
-
+.part-2 h4:hover{
+    border-bottom: 3px solid #719c4c;
+    cursor: pointer;
+}
 nav button{
     outline: none;
     border: 1 px solid black;
@@ -56,8 +61,11 @@ nav button{
     padding: 10px 30px;
     border-radius: 10px;
    align-items: center;
+   cursor: pointer;
 }
-
+nav button:hover{
+    background-color: #B5E48D;
+}
 
 .center{
     width: 100%;
