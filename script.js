@@ -106,3 +106,40 @@ tl2.from('.elem.line4.right',{
 },'anim4')
 }
 page2Animation()
+
+
+var tl3=gsap.timeline({
+   scrollTrigger:{
+        trigger:'.section-3',
+        scroller:'body',
+        // markers:true,
+        start:'top 50%',
+        end:'top 20%',
+        scrub:1,
+    }
+})
+
+tl3.from('.info',{
+    y:100,
+    duration:0.5,
+    opacity:0,
+})
+tl3.from('.info-part1 h2',{
+    x:-100,
+    opacity:0,
+    duration:0.8
+})
+tl3.from('.info-part1 p',{
+    x:-100,
+    opacity:0,
+    duration:0.8
+})
+tl3.from('.info-part1 button',{
+    x:100,
+    opacity:0,
+    duration:1
+})
+tl3.from('.info-part2 img',{
+    opacity:0,
+    duration:1
+},'-=0.5')
